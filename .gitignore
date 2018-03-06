@@ -1,0 +1,8 @@
+target/
+.settings
+.classpath
+.project
+.vscode
+bin
+node_modules/
+test.properties
