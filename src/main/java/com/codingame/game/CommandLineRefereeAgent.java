@@ -40,7 +40,7 @@ public class CommandLineRefereeAgent extends Agent {
     public void execute() {
 
         try {
-            this.process = Runtime.getRuntime().exec(commandLine);
+            this.process = Runtime.getRuntime().exec(commandLine, null);
         } catch (IOException e) {
             throw new RuntimeException("Failed to launch " + commandLine, e);
         }

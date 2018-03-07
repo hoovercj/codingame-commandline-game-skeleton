@@ -31,7 +31,7 @@ public class Referee extends AbstractReferee {
     private static final int GRID_ORIGIN_Y = (int) Math.round(1080 / 2 - CELL_SIZE);
     private static final int GRID_ORIGIN_X = (int) Math.round(1920 / 2 - CELL_SIZE);
 
-    private static final String COMMANDARGS_PROPERTY = "commandargs";
+    private static final String COMMANDARGS_PROPERTY = "refereecommandargs";
 
     @Override
     public Properties init(Properties params) {

@@ -1,7 +1,9 @@
+package player2;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class Player2 {
+public class Player {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int myId = scanner.nextInt();
